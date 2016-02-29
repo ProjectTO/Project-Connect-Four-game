@@ -1,0 +1,162 @@
+
+
+body{
+	background-color: #EFEFEF;
+	position: relative;
+	overflow: auto;
+}
+
+.wrapper{
+	overflow: auto;
+}
+
+.colCenter{
+	width: 700px;
+	margin: 0 auto;
+	background-color: #FFFFFF;
+	min-height: 200px;
+	height:100%;
+	padding: 20px;
+	padding-bottom: 40px;
+	margin-top: -10px;
+	clear: both;
+	-moz-box-shadow: 0 0 5px 5px #888;
+	-webkit-box-shadow: 0 0 5px 5px#888;
+	box-shadow: 0 0 5px 5px #888;
+}
+
+h2{
+	text-align: center;
+	color: black; 
+	font-family: 'Rouge Script', cursive; /*'Lato', sans-serif;*/ 
+	font-size: 54px; 
+	font-weight: 300; 
+	line-height: 58px;
+	margin: 0 0 58px;
+}
+
+.forma{
+	position: relative;
+}
+
+input[type="text"] {
+  padding: 10px;
+  border: solid 1px #dcdcdc;
+  transition: box-shadow 0.3s, border 0.3s;
+  width: 80%;
+  background: url("../img/user.png") no-repeat scroll;
+  background-size: 44px 44px;
+  padding-left: 52px;
+  padding-bottom: 14px;
+  padding-top: 14px;
+  background-position: 0px 0px;
+  float: left;
+  margin-left: 8px;
+}
+input[type="text"]:focus,
+input[type="text"].focus {
+  border: solid 1px #707070;
+  box-shadow: 0 0 5px 1px #969696;
+}
+
+button{
+	background-color: rgba(81, 203, 238, 1);
+    color: white;
+    border: 2px solid transparent;
+    padding: 10px;
+    margin-top: 40px;
+    width: 100%;
+    border-radius: 8px;
+    font-size: 18px;
+}
+
+button:hover{
+	opacity: 0.8;
+	cursor: pointer;
+}
+
+.playerInput{
+	width: 49%;
+	float: left;
+}
+
+.player{
+	font-size: 1.4em;
+	float: left;
+	width: 49%;
+	text-align: center;
+	margin-top: 20px;
+}
+
+.connect{
+	border-radius: 8px;
+	border: 4px solid #B22222;
+	margin-top: 20px;
+	/*padding-left: 10px;*/
+	border-top: 8px solid #B22222;
+	border-bottom: 8px solid #B22222;
+	background-color: rgba(255, 165, 0, 0.2);
+}
+
+.column{
+  width: 14.28%;
+  float: left;
+  margin: 0 auto;
+  height: 480px;
+  position: relative;
+  padding-bottom: 24px
+
+}
+
+.dot{
+	border-radius: 50%;
+	width: 70px;
+ 	height: 70px;
+	position: absolute;
+	left: 12px;
+}
+
+.player1{
+	background-color: #B22222;
+}
+
+.player2{
+	background-color: #F2D324;
+}
+
+
+.column:hover{
+	background-color: orange;
+}
+
+.clear{
+	clear: both;
+}
+
+
+.turn{
+	height: 70px;
+	border-radius: 8px;
+	margin-bottom: -30px;
+	font-size: 1.2em;
+	text-align: center;
+}
+
+.darken{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 1000px;
+	background-color: rgba(0,0,0,0.5); /*dim the background*/
+	z-index: 100;
+}
+
+.center{
+	width: 700px;
+	margin: 0 auto;
+	background-color: white;
+	padding: 20px;
+	margin-top: 160px;
+}
+
